@@ -9,7 +9,7 @@ const SimpleCounter = () => {
   return (
     <div style={{textAlign:"center"}}>
         <h1>{data}</h1>
-        <button onClick={()=>{dispatch(increament())}} type="button" >+</button>
+        <button onClick={()=>{dispatch(increament(3))}} type="button" >+</button>
         <button onClick={()=>{dispatch(reset())}} type="button" >Reset</button>
         <button onClick={()=>{dispatch(decreament())}} type="button" >-</button>
     </div>
